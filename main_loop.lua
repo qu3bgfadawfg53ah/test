@@ -6,10 +6,6 @@
 isTriggerBotEnabled = isTriggerBotEnabled or false
 aimLockedTarget     = aimLockedTarget     or nil
 
--- ═══════════════════════════════════════════════════════════════════
--- [БАГ #5 FIX] hasDirectLoS — функция не была определена нигде в коде.
--- Raycast от origin к target; игнорируем character цели и LocalPlayer.
--- ═══════════════════════════════════════════════════════════════════
 local _losParams = RaycastParams.new()
 _losParams.FilterType = Enum.RaycastFilterType.Blacklist
 
