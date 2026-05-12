@@ -11,12 +11,7 @@
 --  - PlayerKinematicsControlSystem: главный менеджер движения
 -- ═══════════════════════════════════════════════════════════════════
 
--- ═══════════════════════════════════════════════════════════════════
--- [БАГ #4 FIX] Ранняя инициализация jump-флагов
--- infiniteJumpEnabled/jumpBoostEnabled/jumpBoostForce объявлялись
--- в конце файла (строки 532-536), но _setupJumpModifier мог
--- вызваться раньше. jumpBoostForce == nil вызывал краш в Vector3.new().
--- ═══════════════════════════════════════════════════════════════════
+
 infiniteJumpEnabled = infiniteJumpEnabled or false
 jumpBoostEnabled    = jumpBoostEnabled    or false
 jumpBoostForce      = jumpBoostForce      or 60
