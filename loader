@@ -1,14 +1,14 @@
 local FILES = {
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/globals.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/PlayerVisualTracker.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/TargetAcquisitionSystem.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/PlayerKinematicsControlSystem.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/nds.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/teleport.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/EnvironmentRenderingManagementSystem.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/misc.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/gui.lua" },
-    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/menu/refs/heads/main/main_loop.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/globals.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/PlayerVisualTracker.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/TargetAcquisitionSystem.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/PlayerKinematicsControlSystem.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/nds.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/teleport.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/EnvironmentRenderingManagementSystem.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/misc.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/gui.lua" },
+    { url = "https://raw.githubusercontent.com/qu3bgfadawfg53ah/test/refs/heads/main/main_loop.lua" },
 }
 
 local function hr()
